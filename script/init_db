@@ -1,0 +1,10 @@
+
+cp .env.sample .env
+
+set -e
+
+
+docker-compose build
+
+docker-compose run --rm web bin/rails db:create
+docker-compose run --rm web bin/rails db:migrate

@@ -1,0 +1,12 @@
+/log
+/tmp
+!/log/.keep
+!/tmp/.keep
+
+.env
+.env.dev
+
+/.bundle
+/vendor/bundle
+
+.DS_Store
